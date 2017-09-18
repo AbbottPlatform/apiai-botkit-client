@@ -23,7 +23,7 @@
 
 'use strict';
 
-const Botkit = require('botkit');
+const Botkit = require('@abbott-platform/botkit');
 
 const apiai = require('apiai');
 const uuid = require('node-uuid');
