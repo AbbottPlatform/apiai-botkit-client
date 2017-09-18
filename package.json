@@ -1,7 +1,7 @@
 {
-  "name": "api-ai-botkit",
+  "name": "@abbott-platform/api-ai-botkit",
   "version": "1.1.1",
-  "description": "Utility lib for creating Slack bots",
+  "description": "Utility lib for creating bots with Botkit",
   "main": "api-ai-botkit.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
     "url": "https://github.com/api-ai/api-ai-botkit/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "apiai",
@@ -20,8 +21,8 @@
   "author": "Danil Skachkov <danil.skachkov@speaktoit.com> (https://api.ai)",
   "license": "Apache-2.0",
   "dependencies": {
+    "@abbott-platform/botkit": "^1.5.3",
     "apiai": "^3.0.3",
-    "botkit": "^0.4.9",
     "html-entities": "^1.2.0",
     "uuid": "^3.0.1"
   }

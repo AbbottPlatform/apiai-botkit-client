@@ -16,7 +16,7 @@
 
 'use strict';
 
-const Botkit = require('botkit');
+const Botkit = require('@abbott-platform/botkit');
 const apiaibotkit = require('../api-ai-botkit');
 
 const slackToken = process.env.SLACK_TOKEN;

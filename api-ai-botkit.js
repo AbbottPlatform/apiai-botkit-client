@@ -15,8 +15,6 @@
  */
 
 'use strict';
-
-const Botkit = require('botkit');
 const apiai = require('apiai');
 
 const uuidV4 = require('uuid/v4');
