@@ -1,6 +1,6 @@
 {
   "name": "@abbott-platform/api-ai-botkit",
-  "version": "1.5.4",
+  "version": "1.6.5",
   "description": "Utility lib for creating bots with Botkit",
   "main": "api-ai-botkit.js",
   "repository": {
