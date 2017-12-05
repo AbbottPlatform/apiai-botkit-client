@@ -21,7 +21,6 @@
   "author": "Danil Skachkov <danil.skachkov@speaktoit.com> (https://api.ai)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@abbott-platform/botkit": "^1.5.3",
     "apiai": "^3.0.3",
     "html-entities": "^1.2.0",
     "uuid": "^3.0.1"
