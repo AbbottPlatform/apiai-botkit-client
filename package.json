@@ -11,8 +11,10 @@
     "url": "https://github.com/api-ai/api-ai-botkit/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --access public"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "apiai",
